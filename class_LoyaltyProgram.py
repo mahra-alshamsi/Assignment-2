@@ -1,4 +1,5 @@
 class LoyaltyProgram:
+    """Class to represent a guest's loyalty program"""
     def __init__(self, program_id, points_required, reward_details):
         self.__program_id = program_id
         self.__points_required = points_required
